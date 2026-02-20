@@ -1,0 +1,74 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: dark # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "Infrastructure Coders"
+  subtitle: "A Comprehensive approach to modern day Infrastructure as Code (IaC) with Terraform, Ansible, and Kubernetes. Learn to build, deploy, and manage scalable infrastructure with hands-on tutorials and best practices."
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "landingZone.png" # filename of your hero image (including file extension)
+    alt: "Module Structure" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature-grid
+  title: "Why Choose Infrastructure Coders?"
+  subtitle: "Unlock the full potential of Infrastructure as Code with our comprehensive guides, hands-on tutorials, and best practices. Whether you're a beginner or an experienced practitioner, our resources are designed to help you succeed in the world of modern infrastructure management."
+
+  items:
+    - title: Fast # 4
+      icon: speed # 3
+      description: Faster Deployment of Infrastructure # 5
+      ctaLink: # 6
+        text: learn more
+        url: /docs/
+
+    - title: Repeatable # 4
+      icon: repeat # 3
+      description: Repeatable and Consistent Infrastructure # 5
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: One Click # 4
+      icon: touch_app # 3
+      description: One Click Deployment of Infrastructure # 5
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Secure # 4
+      icon: shield # 3
+      description: Secure and Compliant Infrastructure # 5
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+imageCompare:
+  enable: true
+  weight: 30
+  template: image compare
+  title: Compare different Deployment methods
+  subtitle: Compare different deployment methods and their impact on infrastructure performance, scalability, and maintainability.
+  items:
+    - title: Code
+      imagePath: "images"
+      imageBefore: "terraform_example.jpg"
+      imageAfter: "bicep_example.jpg"
