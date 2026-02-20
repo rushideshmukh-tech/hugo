@@ -5,7 +5,7 @@ title = 'My New Hugo Site'
 [params]
   [params.ui]
     darkMode = true          # enable dark mode toggle
-    defaultDarkMode = false  # start in light mode by default
+    defaultDarkMode = true  # start in dark mode by default
 
 [module]
     # uncomment line below for temporary local development of module
