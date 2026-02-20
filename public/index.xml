@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Infrastructure Coders</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Infrastructure Coders</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 15:10:50 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doc One</title>
+      <link>http://localhost:1313/docs/doc-one/</link>
+      <pubDate>Wed, 03 May 2023 22:37:22 +0100</pubDate>
+      <guid>http://localhost:1313/docs/doc-one/</guid>
+      <description>&lt;h2 id=&#34;this-is-doc-one&#34;&gt;This is Doc One &lt;a href=&#34;#this-is-doc-one&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Doc Two</title>
+      <link>http://localhost:1313/docs/doc-two/</link>
+      <pubDate>Wed, 03 May 2023 22:37:22 +0100</pubDate>
+      <guid>http://localhost:1313/docs/doc-two/</guid>
+      <description>&lt;h2 id=&#34;this-is-doc-two&#34;&gt;This is Doc Two &lt;a href=&#34;#this-is-doc-two&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Doc Three</title>
+      <link>http://localhost:1313/docs/parent-directory/doc-three/</link>
+      <pubDate>Fri, 20 Feb 2026 15:10:50 +0100</pubDate>
+      <guid>http://localhost:1313/docs/parent-directory/doc-three/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

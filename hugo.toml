@@ -1,11 +1,13 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Infrastructure Coders'
 
 [params]
-  [params.ui]
-    darkMode = true          # enable dark mode toggle
-    defaultDarkMode = true  # start in dark mode by default
+  [params.docs]
+    title = "Infrastructure Coders"
+    themeColor = "cyan"        # set theme color (e.g., "blue", "red", "green")
+    darkMode = true               # enable dark mode support
+    prismTheme = "twilight"            # set Prism.js theme (e.g., "okaidia", "twilight", "solarizedlight")
 
 [module]
     # uncomment line below for temporary local development of module

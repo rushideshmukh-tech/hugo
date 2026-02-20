@@ -24,6 +24,7 @@ hero:
     alt: "Module Structure" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
+    icon: "rocket_launch" # material icon name (https://fonts.google.com/icons) - overrides image if set
 
 featureGrid:
   enable: true
