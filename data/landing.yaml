@@ -39,28 +39,28 @@ featureGrid:
       description: Faster Deployment of Infrastructure # 5
       ctaLink: # 6
         text: learn more
-        url: /docs/
+        url: /hugo/docs/
 
     - title: Repeatable # 4
       icon: repeat # 3
       description: Repeatable and Consistent Infrastructure # 5
       ctaLink:
         text: learn more
-        url: /docs/
+        url: /hugo/docs/
 
     - title: One Click # 4
       icon: touch_app # 3
       description: One Click Deployment of Infrastructure # 5
       ctaLink:
         text: learn more
-        url: /docs/
+        url: /hugo/docs/
 
     - title: Secure # 4
       icon: shield # 3
       description: Secure and Compliant Infrastructure # 5
       ctaLink:
         text: learn more
-        url: /docs/
+        url: /hugo/docs/
 
 imageCompare:
   enable: true
